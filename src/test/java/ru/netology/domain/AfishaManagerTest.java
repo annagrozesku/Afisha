@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class AfishaManagerTest {
 
-    AfishaManager afisha = new AfishaManager(10);
+    AfishaManager afisha = new AfishaManager();
 
     @Test
     public void shouldAddNewMovie() {
